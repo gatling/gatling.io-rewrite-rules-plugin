@@ -34,7 +34,6 @@ RewriteRule ^docs/(current|[0-9.]+)/mqtt/?$ https://%{HTTP_HOST}/docs/gatling/re
 RewriteRule ^docs/(current|[0-9.]+)/installation/?$ https://%{HTTP_HOST}/docs/gatling/tutorials/installation/ [L,R=301]
 RewriteRule ^docs/(current|[0-9.]+)/quickstart/?$ https://%{HTTP_HOST}/docs/gatling/tutorials/quickstart/ [L,R=301]
 RewriteRule ^docs/(current|[0-9.]+)/advanced_tutorial/?$ https://%{HTTP_HOST}/docs/gatling/tutorials/advanced/ [L,R=301]
-RewriteRule ^docs/(current|[0-9.]+)/realtime_monitoring/?$ https://%{HTTP_HOST}/docs/gatling/tutorials/realtime_monitoring/ [L,R=301]
 
 ## 301 /docs/{version}/http/http_{page}/ -> /docs/gatling/reference/{version}/http/{page}
 RewriteRule ^docs/(current|[0-9.]+)/http/http_protocol/?$ https://%{HTTP_HOST}/docs/gatling/reference/$1/http/protocol/ [L,R=301]
@@ -48,6 +47,7 @@ RewriteRule ^docs/(current|[0-9.]+)/cookbook/?$ https://%{HTTP_HOST}/docs/gatlin
 RewriteCond %{REQUEST_URI} !(.*)/$
 RewriteRule ^docs/(current|[0-9.]+)/cookbook/(.*) https://%{HTTP_HOST}/docs/gatling/guides/$2/ [L,R=301]
 RewriteRule ^docs/(current|[0-9.]+)/cookbook/(.*) https://%{HTTP_HOST}/docs/gatling/guides/$2 [L,R=301]
+RewriteRule ^docs/(current|[0-9.]+)/realtime_monitoring/?$ https://%{HTTP_HOST}/docs/gatling/guides/realtime_monitoring/ [L,R=301]
 
 ## 301 /docs/{version}/migration_guides/{migration} -> /docs/gatling/reference/{version}/migration/{migration}
 RewriteRule ^docs/(current|[0-9.]+)/migration_guides/?$ https://%{HTTP_HOST}/docs/gatling/reference/$1/migration/ [L,R=301]

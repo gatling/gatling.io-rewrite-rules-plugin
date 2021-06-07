@@ -146,8 +146,6 @@
 /docs/current/quickstart/,/docs/gatling/tutorials/quickstart/
 /docs/current/advanced_tutorial,/docs/gatling/tutorials/advanced/
 /docs/current/advanced_tutorial/,/docs/gatling/tutorials/advanced/
-/docs/current/realtime_monitoring,/docs/gatling/tutorials/realtime_monitoring/
-/docs/current/realtime_monitoring/,/docs/gatling/tutorials/realtime_monitoring/
 #,Cookbooks moved to guides
 /docs/current/cookbook,/docs/gatling/guides/
 /docs/current/cookbook/,/docs/gatling/guides/
@@ -157,6 +155,8 @@
 /docs/current/cookbook/passing_parameters/,/docs/gatling/guides/passing_parameters/
 /docs/current/cookbook/handling_jsf,/docs/gatling/guides/handling_jsf/
 /docs/current/cookbook/handling_jsf/,/docs/gatling/guides/handling_jsf/
+/docs/current/realtime_monitoring,/docs/gatling/guides/realtime_monitoring/
+/docs/current/realtime_monitoring/,/docs/gatling/guides/realtime_monitoring/
 #,One of each with versions
 /docs/3.3,/docs/gatling/reference/3.3/
 /docs/3.3/,/docs/gatling/reference/3.3/
@@ -198,8 +198,8 @@
 /docs/3.3/quickstart/,/docs/gatling/tutorials/quickstart/
 /docs/3.3/advanced_tutorial,/docs/gatling/tutorials/advanced/
 /docs/3.3/advanced_tutorial/,/docs/gatling/tutorials/advanced/
-/docs/3.3/realtime_monitoring,/docs/gatling/tutorials/realtime_monitoring/
-/docs/3.3/realtime_monitoring/,/docs/gatling/tutorials/realtime_monitoring/
+/docs/3.3/realtime_monitoring,/docs/gatling/guides/realtime_monitoring/
+/docs/3.3/realtime_monitoring/,/docs/gatling/guides/realtime_monitoring/
 /docs/3.3/cookbook,/docs/gatling/guides/
 /docs/3.3/cookbook/,/docs/gatling/guides/
 /docs/3.3/cookbook/scaling_out,/docs/gatling/guides/scaling_out/
